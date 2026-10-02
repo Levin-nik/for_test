@@ -1,0 +1,11 @@
+framework module TCSSSLPinningPublic {
+    umbrella header "TCSSSLPinningPublic-iOS-umbrella.h"
+    
+
+    export *
+    module * { export * }
+}
+module TCSSSLPinningPublic.Swift {
+  header "TCSSSLPinningPublic-Swift.h"
+  requires objc
+}

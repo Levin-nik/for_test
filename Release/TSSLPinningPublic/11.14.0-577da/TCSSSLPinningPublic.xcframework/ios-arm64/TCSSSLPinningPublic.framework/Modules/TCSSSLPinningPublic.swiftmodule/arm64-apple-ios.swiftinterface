@@ -1,0 +1,149 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-concise-pound-file -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TCSSSLPinningPublic
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+import Network
+import Swift
+@_exported import TCSSSLPinningPublic
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct AppParameters {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(version: String, origin: String, name: String? = nil)
+  #endif
+}
+@frozen public enum HPKPServiceAssembly {
+  public static func createHPKPPinningService(with configuration: HPKPServiceConfiguration) -> IHTTPPublicKeyPinningService
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func getFallbackCertificates(from resourceBundle: Bundle? = nil) -> [String]
+  #endif
+  public static func getGRPCCertificates() -> [String]
+}
+public enum HPKPServiceConstants {
+  public enum Files {
+  }
+  public enum Configuration {
+    public static let defaultHostsAndPinsStorageKey: Swift.String
+    public static let defaultInteractivePolicyCallbackTimeout: Foundation.TimeInterval
+  }
+}
+public struct HPKPServiceConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(hostAndPinsURL: URL, fallbackHostAndPinsURL: URL? = nil, untrustedConnectionPolicy: SSLUntrustedConnectionPolicy = .break, cachedHostsAndPinsDefaultsKey: String = HPKPServiceConstants.Configuration.defaultHostsAndPinsStorageKey, customHostsAndPinsStorage: IHostsAndPinsStorage? = nil, customHostAndPinsCertificateProviderList: [ILocalCertificateProvider]? = nil, customLocalCertificateProviderList: [ILocalCertificateProvider]? = nil, appParameters: AppParameters, isEnabledSecTrustListValidator: Bool = true, shouldRememberInteractiveUserChoice: Bool = true, interactivePolicyCallbackTimeout: TimeInterval = HPKPServiceConstants.Configuration.defaultInteractivePolicyCallbackTimeout, resourceBundle: Bundle? = nil)
+  #endif
+}
+public protocol IHTTPPublicKeyPinningService : Foundation.URLSessionDelegate, TCSSSLPinningPublic.SSLInfoDatasource, WebKit.WKNavigationDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var delegate: HTTPPublicKeyPinningServiceDelegate? { get set }
+  #endif
+  func updateHostsAndPins()
+  func configure()
+}
+public protocol SSLInfoDatasource : AnyObject {
+  var certificateChainCorruptedState: SSLCertificateChainCorruptedState { get }
+  var hostsAndPinsListState: SSLHostsAndPinsListState { get }
+}
+public protocol HTTPPublicKeyPinningServiceDelegate : AnyObject {
+  func httpPublicKeyPinningService(_ hpkpService: IHTTPPublicKeyPinningService, didUpdateHostsAndPinsListWith state: SSLHostsAndPinsListState)
+  func httpPublicKeyPinningService(_ hpkpService: IHTTPPublicKeyPinningService, didCatchCertChainCorruptionStateChangeTo newState: SSLCertificateChainCorruptedState)
+}
+public protocol IHostsAndPinsStorage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  var cachedHostsAndPins: [Payload]? { get }
+  #endif
+  func update(_ hostsAndPins: [Payload])
+  @available(iOS 12.0, *)
+  func resetCache()
+}
+extension IHostsAndPinsStorage {
+  @available(iOS 12.0, *)
+  public func resetCache()
+}
+public protocol ILocalCertificateProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getCertificate() -> String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getCertificateRef() -> SecCertificate?
+  #endif
+}
+public protocol IPemCertificatesProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func getCertificates() -> [String]?
+  #endif
+}
+public struct LocalFile {
+  public init(fileName: String, fileType: String)
+}
+public struct Configuration : Codable, Equatable {
+  public let payload: [Payload]
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: TCSSSLPinningPublic.Configuration, b: TCSSSLPinningPublic.Configuration) -> Swift.Bool
+}
+public struct Payload : Codable, Equatable {
+  public let host: String
+  public let pins: [Pin]
+  public init(host: String, pins: [Pin])
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: TCSSSLPinningPublic.Payload, b: TCSSSLPinningPublic.Payload) -> Swift.Bool
+}
+public struct Pin : Codable, Equatable {
+  public let isOnline: Bool?
+  public let pin: String
+  public let serial: String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(isOnline: Bool?, pin: String, serial: String)
+  #endif
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: TCSSSLPinningPublic.Pin, b: TCSSSLPinningPublic.Pin) -> Swift.Bool
+}
+@frozen public enum SSLCertificateChainCorruptedState {
+  case unknown
+  case valid
+  case corrupted(certificateChain: [String])
+}
+extension SSLCertificateChainCorruptedState : Equatable {
+  public static func == (lhs: SSLCertificateChainCorruptedState, rhs: SSLCertificateChainCorruptedState) -> Bool
+}
+@objc @frozen public enum SSLHostsAndPinsListState : Int {
+  case normal
+  case updateError
+  case wrongCert
+  case localList
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public typealias ShouldContinueOnCertChainCorrupted = (_ hpkpService: IHTTPPublicKeyPinningService, _ untrustedHost: String, _ completion: @escaping (Bool) -> Void) -> Void
+@frozen public enum SSLUntrustedConnectionPolicy {
+  case `continue`
+  case `break`
+  case interactive(askUser: ShouldContinueOnCertChainCorrupted)
+}
+public enum SSLUntrustedConnectionPolicyV2 {
+  case `continue`
+  case `break`
+  case interactive(askUser: ShouldContinueOnCertChainCorrupted)
+}
+extension DispatchQueue {
+  public func withReadLock<R>(_ body: () throws -> R) rethrows -> R
+  public func withWriteLock<R>(_ body: () throws -> R) rethrows -> R
+}
+extension TCSSSLPinningPublic.HPKPServiceAssembly : Swift.Sendable {}
+extension TCSSSLPinningPublic.HPKPServiceAssembly : Swift.BitwiseCopyable {}
+extension TCSSSLPinningPublic.SSLCertificateChainCorruptedState : Swift.Sendable {}
+extension TCSSSLPinningPublic.SSLHostsAndPinsListState : Swift.Equatable {}
+extension TCSSSLPinningPublic.SSLHostsAndPinsListState : Swift.Hashable {}
+extension TCSSSLPinningPublic.SSLHostsAndPinsListState : Swift.RawRepresentable {}
+extension TCSSSLPinningPublic.SSLHostsAndPinsListState : Swift.Sendable {}
+extension TCSSSLPinningPublic.SSLHostsAndPinsListState : Swift.BitwiseCopyable {}

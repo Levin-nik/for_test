@@ -1,0 +1,4917 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TCSSSLPinningPublic",
+    "printedName": "TCSSSLPinningPublic",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "AppParameters",
+        "printedName": "AppParameters",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(version:origin:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppParameters",
+                "printedName": "TCSSSLPinningPublic.AppParameters",
+                "usr": "s:19TCSSSLPinningPublic13AppParametersV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic13AppParametersV7version6origin4nameACSS_S2SSgtcfc",
+            "mangledName": "$s19TCSSSLPinningPublic13AppParametersV7version6origin4nameACSS_S2SSgtcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19TCSSSLPinningPublic13AppParametersV",
+        "mangledName": "$s19TCSSSLPinningPublic13AppParametersV",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HPKPServiceAssembly",
+        "printedName": "HPKPServiceAssembly",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createHPKPPinningService",
+            "printedName": "createHPKPPinningService(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IHTTPPublicKeyPinningService",
+                "printedName": "any TCSSSLPinningPublic.IHTTPPublicKeyPinningService",
+                "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HPKPServiceConfiguration",
+                "printedName": "TCSSSLPinningPublic.HPKPServiceConfiguration",
+                "usr": "s:19TCSSSLPinningPublic24HPKPServiceConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic19HPKPServiceAssemblyO24createHPKPPinningService4withAA021IHTTPPublicKeyPinningG0_pAA0C13ConfigurationV_tFZ",
+            "mangledName": "$s19TCSSSLPinningPublic19HPKPServiceAssemblyO24createHPKPPinningService4withAA021IHTTPPublicKeyPinningG0_pAA0C13ConfigurationV_tFZ",
+            "moduleName": "TCSSSLPinningPublic",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFallbackCertificates",
+            "printedName": "getFallbackCertificates(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic19HPKPServiceAssemblyO23getFallbackCertificates4fromSaySSGSo8NSBundleCSg_tFZ",
+            "mangledName": "$s19TCSSSLPinningPublic19HPKPServiceAssemblyO23getFallbackCertificates4fromSaySSGSo8NSBundleCSg_tFZ",
+            "moduleName": "TCSSSLPinningPublic",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGRPCCertificates",
+            "printedName": "getGRPCCertificates()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic19HPKPServiceAssemblyO19getGRPCCertificatesSaySSGyFZ",
+            "mangledName": "$s19TCSSSLPinningPublic19HPKPServiceAssemblyO19getGRPCCertificatesSaySSGyFZ",
+            "moduleName": "TCSSSLPinningPublic",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19TCSSSLPinningPublic19HPKPServiceAssemblyO",
+        "mangledName": "$s19TCSSSLPinningPublic19HPKPServiceAssemblyO",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen",
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HPKPServiceConstants",
+        "printedName": "HPKPServiceConstants",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Files",
+            "printedName": "Files",
+            "declKind": "Enum",
+            "usr": "s:19TCSSSLPinningPublic20HPKPServiceConstantsO5FilesO",
+            "mangledName": "$s19TCSSSLPinningPublic20HPKPServiceConstantsO5FilesO",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Configuration",
+            "printedName": "Configuration",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "defaultHostsAndPinsStorageKey",
+                "printedName": "defaultHostsAndPinsStorageKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO29defaultHostsAndPinsStorageKeySSvpZ",
+                "mangledName": "$s19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO29defaultHostsAndPinsStorageKeySSvpZ",
+                "moduleName": "TCSSSLPinningPublic",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO29defaultHostsAndPinsStorageKeySSvgZ",
+                    "mangledName": "$s19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO29defaultHostsAndPinsStorageKeySSvgZ",
+                    "moduleName": "TCSSSLPinningPublic",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "defaultInteractivePolicyCallbackTimeout",
+                "printedName": "defaultInteractivePolicyCallbackTimeout",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO39defaultInteractivePolicyCallbackTimeoutSdvpZ",
+                "mangledName": "$s19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO39defaultInteractivePolicyCallbackTimeoutSdvpZ",
+                "moduleName": "TCSSSLPinningPublic",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO39defaultInteractivePolicyCallbackTimeoutSdvgZ",
+                    "mangledName": "$s19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO39defaultInteractivePolicyCallbackTimeoutSdvgZ",
+                    "moduleName": "TCSSSLPinningPublic",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO",
+            "mangledName": "$s19TCSSSLPinningPublic20HPKPServiceConstantsO13ConfigurationO",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19TCSSSLPinningPublic20HPKPServiceConstantsO",
+        "mangledName": "$s19TCSSSLPinningPublic20HPKPServiceConstantsO",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HPKPServiceConfiguration",
+        "printedName": "HPKPServiceConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hostAndPinsURL:fallbackHostAndPinsURL:untrustedConnectionPolicy:cachedHostsAndPinsDefaultsKey:customHostsAndPinsStorage:customHostAndPinsCertificateProviderList:customLocalCertificateProviderList:appParameters:isEnabledSecTrustListValidator:shouldRememberInteractiveUserChoice:interactivePolicyCallbackTimeout:resourceBundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HPKPServiceConfiguration",
+                "printedName": "TCSSSLPinningPublic.HPKPServiceConfiguration",
+                "usr": "s:19TCSSSLPinningPublic24HPKPServiceConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SSLUntrustedConnectionPolicy",
+                "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                "hasDefaultArg": true,
+                "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TCSSSLPinningPublic.IHostsAndPinsStorage)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IHostsAndPinsStorage",
+                    "printedName": "any TCSSSLPinningPublic.IHostsAndPinsStorage",
+                    "usr": "s:19TCSSSLPinningPublic20IHostsAndPinsStorageP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any TCSSSLPinningPublic.ILocalCertificateProvider]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any TCSSSLPinningPublic.ILocalCertificateProvider]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ILocalCertificateProvider",
+                        "printedName": "any TCSSSLPinningPublic.ILocalCertificateProvider",
+                        "usr": "s:19TCSSSLPinningPublic25ILocalCertificateProviderP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any TCSSSLPinningPublic.ILocalCertificateProvider]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any TCSSSLPinningPublic.ILocalCertificateProvider]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ILocalCertificateProvider",
+                        "printedName": "any TCSSSLPinningPublic.ILocalCertificateProvider",
+                        "usr": "s:19TCSSSLPinningPublic25ILocalCertificateProviderP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppParameters",
+                "printedName": "TCSSSLPinningPublic.AppParameters",
+                "usr": "s:19TCSSSLPinningPublic13AppParametersV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic24HPKPServiceConfigurationV14hostAndPinsURL012fallbackHostfgH025untrustedConnectionPolicy011cachedHostsfG11DefaultsKey06customofG7Storage0rjfG23CertificateProviderList0r5LocaltuV013appParameters017isEnabledSecTrustV9Validator35shouldRememberInteractiveUserChoice011interactiveM15CallbackTimeout14resourceBundleAC10Foundation0H0V_ARSgAA012SSLUntrustedlM0OSSAA06IHostsfgS0_pSgSayAA06ILocaltU0_pGSgAzA03AppY0VS2bSdSo8NSBundleCSgtcfc",
+            "mangledName": "$s19TCSSSLPinningPublic24HPKPServiceConfigurationV14hostAndPinsURL012fallbackHostfgH025untrustedConnectionPolicy011cachedHostsfG11DefaultsKey06customofG7Storage0rjfG23CertificateProviderList0r5LocaltuV013appParameters017isEnabledSecTrustV9Validator35shouldRememberInteractiveUserChoice011interactiveM15CallbackTimeout14resourceBundleAC10Foundation0H0V_ARSgAA012SSLUntrustedlM0OSSAA06IHostsfgS0_pSgSayAA06ILocaltU0_pGSgAzA03AppY0VS2bSdSo8NSBundleCSgtcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19TCSSSLPinningPublic24HPKPServiceConfigurationV",
+        "mangledName": "$s19TCSSSLPinningPublic24HPKPServiceConfigurationV",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic"
+      },
+      {
+        "kind": "Import",
+        "name": "TrustKit",
+        "printedName": "TrustKit",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IHTTPPublicKeyPinningService",
+        "printedName": "IHTTPPublicKeyPinningService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPPublicKeyPinningServiceDelegate",
+                    "printedName": "any TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate",
+                    "usr": "s:19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvp",
+            "mangledName": "$s19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPPublicKeyPinningServiceDelegate",
+                        "printedName": "any TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate",
+                        "usr": "s:19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvg",
+                "mangledName": "$s19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+                "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPPublicKeyPinningServiceDelegate",
+                        "printedName": "any TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate",
+                        "usr": "s:19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvs",
+                "mangledName": "$s19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvs",
+                "moduleName": "TCSSSLPinningPublic",
+                "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+                "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvM",
+                "mangledName": "$s19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP8delegateAA010HTTPPublicdeF8Delegate_pSgvM",
+                "moduleName": "TCSSSLPinningPublic",
+                "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+                "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateHostsAndPins",
+            "printedName": "updateHostsAndPins()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP18updateHostsAndPinsyyF",
+            "mangledName": "$s19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP18updateHostsAndPinsyyF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP9configureyyF",
+            "mangledName": "$s19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP9configureyyF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHTTPPublicKeyPinningService>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP",
+        "mangledName": "$s19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP",
+        "moduleName": "TCSSSLPinningPublic",
+        "genericSig": "<τ_0_0 : Foundation.URLSessionDelegate, τ_0_0 : TCSSSLPinningPublic.SSLInfoDatasource, τ_0_0 : WebKit.WKNavigationDelegate>",
+        "sugared_genericSig": "<Self : Foundation.URLSessionDelegate, Self : TCSSSLPinningPublic.SSLInfoDatasource, Self : WebKit.WKNavigationDelegate>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SSLInfoDatasource",
+            "printedName": "SSLInfoDatasource",
+            "usr": "s:19TCSSSLPinningPublic17SSLInfoDatasourceP",
+            "mangledName": "$s19TCSSSLPinningPublic17SSLInfoDatasourceP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSLInfoDatasource",
+        "printedName": "SSLInfoDatasource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "certificateChainCorruptedState",
+            "printedName": "certificateChainCorruptedState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSLCertificateChainCorruptedState",
+                "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic17SSLInfoDatasourceP30certificateChainCorruptedStateAA014SSLCertificatefgH0Ovp",
+            "mangledName": "$s19TCSSSLPinningPublic17SSLInfoDatasourceP30certificateChainCorruptedStateAA014SSLCertificatefgH0Ovp",
+            "moduleName": "TCSSSLPinningPublic",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLCertificateChainCorruptedState",
+                    "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                    "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic17SSLInfoDatasourceP30certificateChainCorruptedStateAA014SSLCertificatefgH0Ovg",
+                "mangledName": "$s19TCSSSLPinningPublic17SSLInfoDatasourceP30certificateChainCorruptedStateAA014SSLCertificatefgH0Ovg",
+                "moduleName": "TCSSSLPinningPublic",
+                "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.SSLInfoDatasource>",
+                "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.SSLInfoDatasource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hostsAndPinsListState",
+            "printedName": "hostsAndPinsListState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SSLHostsAndPinsListState",
+                "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic17SSLInfoDatasourceP21hostsAndPinsListStateAA08SSLHostsfghI0Ovp",
+            "mangledName": "$s19TCSSSLPinningPublic17SSLInfoDatasourceP21hostsAndPinsListStateAA08SSLHostsfghI0Ovp",
+            "moduleName": "TCSSSLPinningPublic",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLHostsAndPinsListState",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                    "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic17SSLInfoDatasourceP21hostsAndPinsListStateAA08SSLHostsfghI0Ovg",
+                "mangledName": "$s19TCSSSLPinningPublic17SSLInfoDatasourceP21hostsAndPinsListStateAA08SSLHostsfghI0Ovg",
+                "moduleName": "TCSSSLPinningPublic",
+                "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.SSLInfoDatasource>",
+                "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.SSLInfoDatasource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19TCSSSLPinningPublic17SSLInfoDatasourceP",
+        "mangledName": "$s19TCSSSLPinningPublic17SSLInfoDatasourceP",
+        "moduleName": "TCSSSLPinningPublic",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPPublicKeyPinningServiceDelegate",
+        "printedName": "HTTPPublicKeyPinningServiceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "httpPublicKeyPinningService",
+            "printedName": "httpPublicKeyPinningService(_:didUpdateHostsAndPinsListWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IHTTPPublicKeyPinningService",
+                "printedName": "any TCSSSLPinningPublic.IHTTPPublicKeyPinningService",
+                "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SSLHostsAndPinsListState",
+                "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP04httpbdeF0_29didUpdateHostsAndPinsListWithyAA011IHTTPPublicdeF0_p_AA08SSLHostslmN5StateOtF",
+            "mangledName": "$s19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP04httpbdeF0_29didUpdateHostsAndPinsListWithyAA011IHTTPPublicdeF0_p_AA08SSLHostslmN5StateOtF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "httpPublicKeyPinningService",
+            "printedName": "httpPublicKeyPinningService(_:didCatchCertChainCorruptionStateChangeTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IHTTPPublicKeyPinningService",
+                "printedName": "any TCSSSLPinningPublic.IHTTPPublicKeyPinningService",
+                "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SSLCertificateChainCorruptedState",
+                "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP04httpbdeF0_40didCatchCertChainCorruptionStateChangeToyAA011IHTTPPublicdeF0_p_AA014SSLCertificatel9CorruptedN0OtF",
+            "mangledName": "$s19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP04httpbdeF0_40didCatchCertChainCorruptionStateChangeToyAA011IHTTPPublicdeF0_p_AA014SSLCertificatel9CorruptedN0OtF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.HTTPPublicKeyPinningServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP",
+        "mangledName": "$s19TCSSSLPinningPublic35HTTPPublicKeyPinningServiceDelegateP",
+        "moduleName": "TCSSSLPinningPublic",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IHostsAndPinsStorage",
+        "printedName": "IHostsAndPinsStorage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cachedHostsAndPins",
+            "printedName": "cachedHostsAndPins",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[TCSSSLPinningPublic.Payload]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TCSSSLPinningPublic.Payload]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Payload",
+                        "printedName": "TCSSSLPinningPublic.Payload",
+                        "usr": "s:19TCSSSLPinningPublic7PayloadV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic20IHostsAndPinsStorageP011cachedHostsdE0SayAA7PayloadVGSgvp",
+            "mangledName": "$s19TCSSSLPinningPublic20IHostsAndPinsStorageP011cachedHostsdE0SayAA7PayloadVGSgvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[TCSSSLPinningPublic.Payload]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[TCSSSLPinningPublic.Payload]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Payload",
+                            "printedName": "TCSSSLPinningPublic.Payload",
+                            "usr": "s:19TCSSSLPinningPublic7PayloadV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic20IHostsAndPinsStorageP011cachedHostsdE0SayAA7PayloadVGSgvg",
+                "mangledName": "$s19TCSSSLPinningPublic20IHostsAndPinsStorageP011cachedHostsdE0SayAA7PayloadVGSgvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+                "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TCSSSLPinningPublic.Payload]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Payload",
+                    "printedName": "TCSSSLPinningPublic.Payload",
+                    "usr": "s:19TCSSSLPinningPublic7PayloadV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic20IHostsAndPinsStorageP6updateyySayAA7PayloadVGF",
+            "mangledName": "$s19TCSSSLPinningPublic20IHostsAndPinsStorageP6updateyySayAA7PayloadVGF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetCache",
+            "printedName": "resetCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic20IHostsAndPinsStorageP10resetCacheyyF",
+            "mangledName": "$s19TCSSSLPinningPublic20IHostsAndPinsStorageP10resetCacheyyF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+            "protocolReq": true,
+            "intro_iOS": "12.0",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetCache",
+            "printedName": "resetCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic20IHostsAndPinsStoragePAAE10resetCacheyyF",
+            "mangledName": "$s19TCSSSLPinningPublic20IHostsAndPinsStoragePAAE10resetCacheyyF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IHostsAndPinsStorage>",
+            "intro_iOS": "12.0",
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19TCSSSLPinningPublic20IHostsAndPinsStorageP",
+        "mangledName": "$s19TCSSSLPinningPublic20IHostsAndPinsStorageP",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ILocalCertificateProvider",
+        "printedName": "ILocalCertificateProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getCertificate",
+            "printedName": "getCertificate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic25ILocalCertificateProviderP03getD0SSSgyF",
+            "mangledName": "$s19TCSSSLPinningPublic25ILocalCertificateProviderP03getD0SSSgyF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.ILocalCertificateProvider>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.ILocalCertificateProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCertificateRef",
+            "printedName": "getCertificateRef()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Security.SecCertificate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SecCertificate",
+                    "printedName": "Security.SecCertificate",
+                    "usr": "c:@T@SecCertificateRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic25ILocalCertificateProviderP03getD3RefSo03SecdG0aSgyF",
+            "mangledName": "$s19TCSSSLPinningPublic25ILocalCertificateProviderP03getD3RefSo03SecdG0aSgyF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.ILocalCertificateProvider>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.ILocalCertificateProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19TCSSSLPinningPublic25ILocalCertificateProviderP",
+        "mangledName": "$s19TCSSSLPinningPublic25ILocalCertificateProviderP",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IPemCertificatesProvider",
+        "printedName": "IPemCertificatesProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getCertificates",
+            "printedName": "getCertificates()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic24IPemCertificatesProviderP03getD0SaySSGSgyF",
+            "mangledName": "$s19TCSSSLPinningPublic24IPemCertificatesProviderP03getD0SaySSGSgyF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0 where τ_0_0 : TCSSSLPinningPublic.IPemCertificatesProvider>",
+            "sugared_genericSig": "<Self where Self : TCSSSLPinningPublic.IPemCertificatesProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19TCSSSLPinningPublic24IPemCertificatesProviderP",
+        "mangledName": "$s19TCSSSLPinningPublic24IPemCertificatesProviderP",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocalFile",
+        "printedName": "LocalFile",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fileName:fileType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocalFile",
+                "printedName": "TCSSSLPinningPublic.LocalFile",
+                "usr": "s:19TCSSSLPinningPublic9LocalFileV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic9LocalFileV8fileName0E4TypeACSS_SStcfc",
+            "mangledName": "$s19TCSSSLPinningPublic9LocalFileV8fileName0E4TypeACSS_SStcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19TCSSSLPinningPublic9LocalFileV",
+        "mangledName": "$s19TCSSSLPinningPublic9LocalFileV",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Configuration",
+        "printedName": "Configuration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TCSSSLPinningPublic.Payload]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Payload",
+                    "printedName": "TCSSSLPinningPublic.Payload",
+                    "usr": "s:19TCSSSLPinningPublic7PayloadV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic13ConfigurationV7payloadSayAA7PayloadVGvp",
+            "mangledName": "$s19TCSSSLPinningPublic13ConfigurationV7payloadSayAA7PayloadVGvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TCSSSLPinningPublic.Payload]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Payload",
+                        "printedName": "TCSSSLPinningPublic.Payload",
+                        "usr": "s:19TCSSSLPinningPublic7PayloadV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic13ConfigurationV7payloadSayAA7PayloadVGvg",
+                "mangledName": "$s19TCSSSLPinningPublic13ConfigurationV7payloadSayAA7PayloadVGvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "TCSSSLPinningPublic.Configuration",
+                "usr": "s:19TCSSSLPinningPublic13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19TCSSSLPinningPublic13ConfigurationV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic13ConfigurationV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19TCSSSLPinningPublic13ConfigurationV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "TCSSSLPinningPublic.Configuration",
+                "usr": "s:19TCSSSLPinningPublic13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "TCSSSLPinningPublic.Configuration",
+                "usr": "s:19TCSSSLPinningPublic13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic13ConfigurationV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19TCSSSLPinningPublic13ConfigurationV2eeoiySbAC_ACtFZ",
+            "moduleName": "TCSSSLPinningPublic",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19TCSSSLPinningPublic13ConfigurationV",
+        "mangledName": "$s19TCSSSLPinningPublic13ConfigurationV",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Payload",
+        "printedName": "Payload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "host",
+            "printedName": "host",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic7PayloadV4hostSSvp",
+            "mangledName": "$s19TCSSSLPinningPublic7PayloadV4hostSSvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic7PayloadV4hostSSvg",
+                "mangledName": "$s19TCSSSLPinningPublic7PayloadV4hostSSvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pins",
+            "printedName": "pins",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TCSSSLPinningPublic.Pin]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Pin",
+                    "printedName": "TCSSSLPinningPublic.Pin",
+                    "usr": "s:19TCSSSLPinningPublic3PinV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic7PayloadV4pinsSayAA3PinVGvp",
+            "mangledName": "$s19TCSSSLPinningPublic7PayloadV4pinsSayAA3PinVGvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TCSSSLPinningPublic.Pin]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Pin",
+                        "printedName": "TCSSSLPinningPublic.Pin",
+                        "usr": "s:19TCSSSLPinningPublic3PinV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic7PayloadV4pinsSayAA3PinVGvg",
+                "mangledName": "$s19TCSSSLPinningPublic7PayloadV4pinsSayAA3PinVGvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(host:pins:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Payload",
+                "printedName": "TCSSSLPinningPublic.Payload",
+                "usr": "s:19TCSSSLPinningPublic7PayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TCSSSLPinningPublic.Pin]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Pin",
+                    "printedName": "TCSSSLPinningPublic.Pin",
+                    "usr": "s:19TCSSSLPinningPublic3PinV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic7PayloadV4host4pinsACSS_SayAA3PinVGtcfc",
+            "mangledName": "$s19TCSSSLPinningPublic7PayloadV4host4pinsACSS_SayAA3PinVGtcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Payload",
+                "printedName": "TCSSSLPinningPublic.Payload",
+                "usr": "s:19TCSSSLPinningPublic7PayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic7PayloadV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19TCSSSLPinningPublic7PayloadV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic7PayloadV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19TCSSSLPinningPublic7PayloadV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Payload",
+                "printedName": "TCSSSLPinningPublic.Payload",
+                "usr": "s:19TCSSSLPinningPublic7PayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Payload",
+                "printedName": "TCSSSLPinningPublic.Payload",
+                "usr": "s:19TCSSSLPinningPublic7PayloadV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic7PayloadV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19TCSSSLPinningPublic7PayloadV2eeoiySbAC_ACtFZ",
+            "moduleName": "TCSSSLPinningPublic",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19TCSSSLPinningPublic7PayloadV",
+        "mangledName": "$s19TCSSSLPinningPublic7PayloadV",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Pin",
+        "printedName": "Pin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isOnline",
+            "printedName": "isOnline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic3PinV8isOnlineSbSgvp",
+            "mangledName": "$s19TCSSSLPinningPublic3PinV8isOnlineSbSgvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic3PinV8isOnlineSbSgvg",
+                "mangledName": "$s19TCSSSLPinningPublic3PinV8isOnlineSbSgvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pin",
+            "printedName": "pin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic3PinV3pinSSvp",
+            "mangledName": "$s19TCSSSLPinningPublic3PinV3pinSSvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic3PinV3pinSSvg",
+                "mangledName": "$s19TCSSSLPinningPublic3PinV3pinSSvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serial",
+            "printedName": "serial",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic3PinV6serialSSvp",
+            "mangledName": "$s19TCSSSLPinningPublic3PinV6serialSSvp",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic3PinV6serialSSvg",
+                "mangledName": "$s19TCSSSLPinningPublic3PinV6serialSSvg",
+                "moduleName": "TCSSSLPinningPublic",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isOnline:pin:serial:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Pin",
+                "printedName": "TCSSSLPinningPublic.Pin",
+                "usr": "s:19TCSSSLPinningPublic3PinV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic3PinV8isOnline3pin6serialACSbSg_S2Stcfc",
+            "mangledName": "$s19TCSSSLPinningPublic3PinV8isOnline3pin6serialACSbSg_S2Stcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Pin",
+                "printedName": "TCSSSLPinningPublic.Pin",
+                "usr": "s:19TCSSSLPinningPublic3PinV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic3PinV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19TCSSSLPinningPublic3PinV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic3PinV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19TCSSSLPinningPublic3PinV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Pin",
+                "printedName": "TCSSSLPinningPublic.Pin",
+                "usr": "s:19TCSSSLPinningPublic3PinV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Pin",
+                "printedName": "TCSSSLPinningPublic.Pin",
+                "usr": "s:19TCSSSLPinningPublic3PinV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic3PinV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19TCSSSLPinningPublic3PinV2eeoiySbAC_ACtFZ",
+            "moduleName": "TCSSSLPinningPublic",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19TCSSSLPinningPublic3PinV",
+        "mangledName": "$s19TCSSSLPinningPublic3PinV",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSLCertificateChainCorruptedState",
+        "printedName": "SSLCertificateChainCorruptedState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLCertificateChainCorruptedState.Type) -> TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLCertificateChainCorruptedState",
+                    "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                    "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLCertificateChainCorruptedState",
+                        "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                        "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO7unknownyA2CmF",
+            "mangledName": "$s19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO7unknownyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "valid",
+            "printedName": "valid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLCertificateChainCorruptedState.Type) -> TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLCertificateChainCorruptedState",
+                    "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                    "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLCertificateChainCorruptedState",
+                        "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                        "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO5validyA2CmF",
+            "mangledName": "$s19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO5validyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "corrupted",
+            "printedName": "corrupted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLCertificateChainCorruptedState.Type) -> ([Swift.String]) -> TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String]) -> TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLCertificateChainCorruptedState",
+                        "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                        "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(certificateChain: [Swift.String])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLCertificateChainCorruptedState",
+                        "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                        "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO9corruptedyACSaySSG_tcACmF",
+            "mangledName": "$s19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO9corruptedyACSaySSG_tcACmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SSLCertificateChainCorruptedState",
+                "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SSLCertificateChainCorruptedState",
+                "printedName": "TCSSSLPinningPublic.SSLCertificateChainCorruptedState",
+                "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "TCSSSLPinningPublic",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO",
+        "mangledName": "$s19TCSSSLPinningPublic33SSLCertificateChainCorruptedStateO",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen",
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSLHostsAndPinsListState",
+        "printedName": "SSLHostsAndPinsListState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "normal",
+            "printedName": "normal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLHostsAndPinsListState.Type) -> TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLHostsAndPinsListState",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                    "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLHostsAndPinsListState",
+                        "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                        "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState@SSLHostsAndPinsListStateNormal",
+            "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO6normalyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "updateError",
+            "printedName": "updateError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLHostsAndPinsListState.Type) -> TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLHostsAndPinsListState",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                    "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLHostsAndPinsListState",
+                        "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                        "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState@SSLHostsAndPinsListStateUpdateError",
+            "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO11updateErroryA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "wrongCert",
+            "printedName": "wrongCert",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLHostsAndPinsListState.Type) -> TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLHostsAndPinsListState",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                    "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLHostsAndPinsListState",
+                        "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                        "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState@SSLHostsAndPinsListStateWrongCert",
+            "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO9wrongCertyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "localList",
+            "printedName": "localList",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLHostsAndPinsListState.Type) -> TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLHostsAndPinsListState",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                    "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLHostsAndPinsListState",
+                        "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                        "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState@SSLHostsAndPinsListStateLocalList",
+            "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO05localF0yA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLHostsAndPinsListState",
+                    "printedName": "TCSSSLPinningPublic.SSLHostsAndPinsListState",
+                    "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19TCSSSLPinningPublic24SSLHostsAndPinsListStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO8rawValueACSgSi_tcfc",
+            "moduleName": "TCSSSLPinningPublic",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19TCSSSLPinningPublic24SSLHostsAndPinsListStateO8rawValueSivp",
+            "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO8rawValueSivp",
+            "moduleName": "TCSSSLPinningPublic",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19TCSSSLPinningPublic24SSLHostsAndPinsListStateO8rawValueSivg",
+                "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO8rawValueSivg",
+                "moduleName": "TCSSSLPinningPublic",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@TCSSSLPinningPublic@E@SSLHostsAndPinsListState",
+        "mangledName": "$s19TCSSSLPinningPublic24SSLHostsAndPinsListStateO",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSLUntrustedConnectionPolicy",
+        "printedName": "SSLUntrustedConnectionPolicy",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "continue",
+            "printedName": "continue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLUntrustedConnectionPolicy.Type) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLUntrustedConnectionPolicy",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                    "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicy",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                        "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO8continueyA2CmF",
+            "mangledName": "$s19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO8continueyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "break",
+            "printedName": "break",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLUntrustedConnectionPolicy.Type) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLUntrustedConnectionPolicy",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                    "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicy",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                        "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO5breakyA2CmF",
+            "mangledName": "$s19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO5breakyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "interactive",
+            "printedName": "interactive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLUntrustedConnectionPolicy.Type) -> (@escaping (any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ()) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping (any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ()) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicy",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                        "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(askUser: (any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ())",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Tuple",
+                                "printedName": "(any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, (Swift.Bool) -> ())",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "IHTTPPublicKeyPinningService",
+                                    "printedName": "any TCSSSLPinningPublic.IHTTPPublicKeyPinningService",
+                                    "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeFunc",
+                                    "name": "Function",
+                                    "printedName": "(Swift.Bool) -> ()",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Void",
+                                        "printedName": "()"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Bool",
+                                        "printedName": "Swift.Bool",
+                                        "usr": "s:Sb"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicy",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicy",
+                        "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO11interactiveyACyAA28IHTTPPublicKeyPinningService_p_SSySbctc_tcACmF",
+            "mangledName": "$s19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO11interactiveyACyAA28IHTTPPublicKeyPinningService_p_SSySbctc_tcACmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO",
+        "mangledName": "$s19TCSSSLPinningPublic28SSLUntrustedConnectionPolicyO",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen",
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SSLUntrustedConnectionPolicyV2",
+        "printedName": "SSLUntrustedConnectionPolicyV2",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "continue",
+            "printedName": "continue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2.Type) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLUntrustedConnectionPolicyV2",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                    "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicyV2",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                        "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O8continueyA2CmF",
+            "mangledName": "$s19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O8continueyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "break",
+            "printedName": "break",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2.Type) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SSLUntrustedConnectionPolicyV2",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                    "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicyV2",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                        "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O5breakyA2CmF",
+            "mangledName": "$s19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O5breakyA2CmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interactive",
+            "printedName": "interactive",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2.Type) -> (@escaping (any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ()) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping (any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ()) -> TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicyV2",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                        "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(askUser: (any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ())",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, @escaping (Swift.Bool) -> ()) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Tuple",
+                                "printedName": "(any TCSSSLPinningPublic.IHTTPPublicKeyPinningService, Swift.String, (Swift.Bool) -> ())",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "IHTTPPublicKeyPinningService",
+                                    "printedName": "any TCSSSLPinningPublic.IHTTPPublicKeyPinningService",
+                                    "usr": "s:19TCSSSLPinningPublic28IHTTPPublicKeyPinningServiceP"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeFunc",
+                                    "name": "Function",
+                                    "printedName": "(Swift.Bool) -> ()",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Void",
+                                        "printedName": "()"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Bool",
+                                        "printedName": "Swift.Bool",
+                                        "usr": "s:Sb"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SSLUntrustedConnectionPolicyV2",
+                        "printedName": "TCSSSLPinningPublic.SSLUntrustedConnectionPolicyV2",
+                        "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O11interactiveyACyAA28IHTTPPublicKeyPinningService_p_SSySbctc_tcACmF",
+            "mangledName": "$s19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O11interactiveyACyAA28IHTTPPublicKeyPinningService_p_SSySbctc_tcACmF",
+            "moduleName": "TCSSSLPinningPublic",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O",
+        "mangledName": "$s19TCSSSLPinningPublic30SSLUntrustedConnectionPolicyV2O",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustKit",
+        "printedName": "TrustKit",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TrustKit",
+        "printedName": "TrustKit",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TCSSSLPinningPublic"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DispatchQueue",
+        "printedName": "DispatchQueue",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "withReadLock",
+            "printedName": "withReadLock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC19TCSSSLPinningPublicE12withReadLockyxxyKXEKlF",
+            "mangledName": "$sSo17OS_dispatch_queueC19TCSSSLPinningPublicE12withReadLockyxxyKXEKlF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<R>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withWriteLock",
+            "printedName": "withWriteLock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC19TCSSSLPinningPublicE13withWriteLockyxxyKXEKlF",
+            "mangledName": "$sSo17OS_dispatch_queueC19TCSSSLPinningPublicE13withWriteLockyxxyKXEKlF",
+            "moduleName": "TCSSSLPinningPublic",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<R>",
+            "declAttributes": [
+              "Rethrows",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)OS_dispatch_queue",
+        "moduleName": "Dispatch",
+        "isOpen": true,
+        "objc_name": "OS_dispatch_queue",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "HasMissingDesignatedInitializers",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)OS_dispatch_object",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Dispatch.DispatchObject",
+          "os_object.OS_object",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TaskExecutor",
+            "printedName": "TaskExecutor",
+            "usr": "s:Sch",
+            "mangledName": "$sSch"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Executor",
+            "printedName": "Executor",
+            "usr": "s:ScF",
+            "mangledName": "$sScF"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Scheduler",
+            "printedName": "Scheduler",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SchedulerTimeType",
+                "printedName": "SchedulerTimeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SchedulerTimeType",
+                    "printedName": "Dispatch.DispatchQueue.SchedulerTimeType",
+                    "usr": "s:So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SchedulerOptions",
+                "printedName": "SchedulerOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SchedulerOptions",
+                    "printedName": "Dispatch.DispatchQueue.SchedulerOptions",
+                    "usr": "s:So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine9SchedulerP",
+            "mangledName": "$s7Combine9SchedulerP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSLock",
+        "printedName": "NSLock",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSLock",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSLock",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSRecursiveLock",
+        "printedName": "NSRecursiveLock",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSRecursiveLock",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSRecursiveLock",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Utils\/Bundle+LocalFile.swift",
+      "kind": "StringLiteral",
+      "offset": 974,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 385,
+      "length": 135,
+      "value": "[\"-\", \"-\", \"-\", \"-\", \"-\", \"B\", \"E\", \"G\", \"I\", \"N\", \" \", \"C\", \"E\", \"R\", \"T\", \"I\", \"F\", \"I\", \"C\", \"A\", \"T\", \"E\", \"-\", \"-\", \"-\", \"-\", \"-\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 566,
+      "length": 20,
+      "value": "[\"c\", \"e\", \"r\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 644,
+      "length": 80,
+      "value": "[\"c\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \"C\", \"h\", \"a\", \"i\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 791,
+      "length": 135,
+      "value": "[\"c\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \" \", \"c\", \"h\", \"a\", \"i\", \"n\", \" \", \"c\", \"o\", \"r\", \"r\", \"u\", \"p\", \"t\", \"e\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 1005,
+      "length": 155,
+      "value": "[\"C\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \"C\", \"h\", \"a\", \"i\", \"n\", \"V\", \"a\", \"l\", \"i\", \"d\", \"a\", \"t\", \"i\", \"o\", \"n\", \"E\", \"r\", \"r\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 1260,
+      "length": 165,
+      "value": "[\"F\", \"a\", \"i\", \"l\", \"e\", \"d\", \" \", \"t\", \"o\", \" \", \"s\", \"e\", \"t\", \" \", \"a\", \"n\", \"c\", \"h\", \"o\", \"r\", \" \", \"c\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 1491,
+      "length": 135,
+      "value": "[\"c\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \" \", \"p\", \"i\", \"n\", \"s\", \" \", \"l\", \"o\", \"c\", \"a\", \"l\", \" \", \"l\", \"i\", \"s\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 1706,
+      "length": 210,
+      "value": "[\"c\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \" \", \"p\", \"i\", \"n\", \"s\", \" \", \"s\", \"e\", \"r\", \"v\", \"i\", \"c\", \"e\", \" \", \"w\", \"r\", \"o\", \"n\", \"g\", \" \", \"c\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 1984,
+      "length": 145,
+      "value": "[\"c\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \" \", \"p\", \"i\", \"n\", \"s\", \" \", \"u\", \"p\", \"d\", \"a\", \"t\", \"e\", \" \", \"e\", \"r\", \"r\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2184,
+      "length": 20,
+      "value": "[\"h\", \"o\", \"s\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2263,
+      "length": 40,
+      "value": "[\"i\", \"s\", \"O\", \"n\", \"l\", \"i\", \"n\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2361,
+      "length": 35,
+      "value": "[\"p\", \"a\", \"y\", \"l\", \"o\", \"a\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2450,
+      "length": 15,
+      "value": "[\"p\", \"i\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2520,
+      "length": 20,
+      "value": "[\"p\", \"i\", \"n\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2597,
+      "length": 30,
+      "value": "[\"s\", \"e\", \"r\", \"i\", \"a\", \"l\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2681,
+      "length": 65,
+      "value": "[\"c\", \"o\", \"r\", \"e\", \"_\", \"s\", \"e\", \"c\", \"u\", \"r\", \"i\", \"t\", \"y\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2812,
+      "length": 130,
+      "value": "[\"c\", \"o\", \"r\", \"e\", \"t\", \"e\", \"c\", \"h\", \".\", \"m\", \"o\", \"b\", \"i\", \"l\", \"e\", \".\", \"s\", \"s\", \"l\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 2998,
+      "length": 175,
+      "value": "[\"c\", \"r\", \"e\", \"a\", \"t\", \"e\", \"T\", \"r\", \"u\", \"s\", \"t\", \"K\", \"i\", \"t\", \"(\", \"w\", \"i\", \"t\", \"h\", \":\", \"e\", \"n\", \"a\", \"b\", \"l\", \"e\", \"L\", \"o\", \"g\", \"g\", \"i\", \"n\", \"g\", \":\", \")\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 3229,
+      "length": 80,
+      "value": "[\"c\", \"u\", \"s\", \"t\", \"o\", \"m\", \"_\", \"r\", \"o\", \"o\", \"t\", \"_\", \"c\", \"e\", \"r\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 3371,
+      "length": 115,
+      "value": "[\"c\", \"u\", \"s\", \"t\", \"o\", \"m\", \"_\", \"s\", \"s\", \"l\", \"_\", \"p\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \"_\", \"r\", \"o\", \"o\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 3542,
+      "length": 125,
+      "value": "[\"-\", \"-\", \"-\", \"-\", \"-\", \"E\", \"N\", \"D\", \" \", \"C\", \"E\", \"R\", \"T\", \"I\", \"F\", \"I\", \"C\", \"A\", \"T\", \"E\", \"-\", \"-\", \"-\", \"-\", \"-\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 3718,
+      "length": 45,
+      "value": "[\"e\", \"r\", \"r\", \"o\", \"r\", \"C\", \"o\", \"d\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 3817,
+      "length": 60,
+      "value": "[\"e\", \"r\", \"r\", \"o\", \"r\", \"M\", \"e\", \"s\", \"s\", \"a\", \"g\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 3931,
+      "length": 220,
+      "value": "[\"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"0\", \"=\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 4207,
+      "length": 75,
+      "value": "[\"h\", \"a\", \"n\", \"d\", \"s\", \"h\", \"a\", \"k\", \"e\", \" \", \"e\", \"r\", \"r\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 4337,
+      "length": 70,
+      "value": "[\"h\", \"a\", \"n\", \"d\", \"s\", \"h\", \"a\", \"k\", \"e\", \".\", \"f\", \"a\", \"i\", \"l\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 4480,
+      "length": 185,
+      "value": "[\"H\", \"o\", \"s\", \"t\", \" \", \"s\", \"t\", \"r\", \"i\", \"n\", \"g\", \" \", \"f\", \"o\", \"r\", \" \", \"t\", \"r\", \"u\", \"s\", \"t\", \" \", \"r\", \"e\", \"c\", \"o\", \"v\", \"e\", \"r\", \"y\", \" \", \"i\", \"s\", \" \", \"n\", \"i\", \"l\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 4745,
+      "length": 240,
+      "value": "[\"H\", \"o\", \"s\", \"t\", \" \", \"s\", \"t\", \"r\", \"i\", \"n\", \"g\", \" \", \"f\", \"o\", \"r\", \" \", \"t\", \"r\", \"u\", \"s\", \"t\", \" \", \"r\", \"e\", \"c\", \"o\", \"v\", \"e\", \"r\", \"y\", \" \", \"i\", \"s\", \" \", \"u\", \"n\", \"e\", \"x\", \"p\", \"e\", \"c\", \"t\", \"e\", \"d\", \":\", \" \", \"%\", \"@\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 5047,
+      "length": 100,
+      "value": "[\"h\", \"o\", \"s\", \"t\", \"U\", \"n\", \"a\", \"v\", \"a\", \"i\", \"l\", \"a\", \"b\", \"l\", \"e\", \"E\", \"r\", \"r\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 5214,
+      "length": 145,
+      "value": "[\"i\", \"n\", \"i\", \"t\", \" \", \"h\", \"a\", \"s\", \" \", \"n\", \"o\", \"t\", \" \", \"b\", \"e\", \"e\", \"n\", \" \", \"i\", \"m\", \"p\", \"l\", \"e\", \"m\", \"e\", \"n\", \"t\", \"e\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 5419,
+      "length": 120,
+      "value": "[\"I\", \"n\", \"v\", \"a\", \"l\", \"i\", \"d\", \" \", \"X\", \".\", \"5\", \"0\", \"9\", \" \", \"v\", \"e\", \"r\", \"s\", \"i\", \"o\", \"n\", \" \", \"%\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 5587,
+      "length": 30,
+      "value": "[\"i\", \"s\", \"s\", \"u\", \"e\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 5684,
+      "length": 185,
+      "value": "[\"D\", \"o\", \"m\", \"a\", \"i\", \"n\", \":\", \" \", \"%\", \"@\", \",\", \" \", \"C\", \"o\", \"d\", \"e\", \":\", \" \", \"%\", \"d\", \",\", \" \", \"D\", \"e\", \"s\", \"c\", \"r\", \"i\", \"p\", \"t\", \"i\", \"o\", \"n\", \":\", \" \", \"%\", \"@\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 5950,
+      "length": 270,
+      "value": "[\"Н\", \"е\", \" \", \"у\", \"д\", \"а\", \"л\", \"о\", \"с\", \"ь\", \" \", \"н\", \"а\", \"й\", \"т\", \"и\", \" \", \"ф\", \"а\", \"й\", \"л\", \" \", \"с\", \" \", \"з\", \"а\", \"х\", \"о\", \"р\", \"д\", \"к\", \"о\", \"ж\", \"е\", \"н\", \"н\", \"ы\", \"м\", \"и\", \" \", \"п\", \"и\", \"н\", \"а\", \"м\", \"и\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 6290,
+      "length": 299,
+      "value": "[\"Н\", \"е\", \"о\", \"б\", \"х\", \"о\", \"д\", \"и\", \"м\", \"о\", \" \", \"п\", \"е\", \"р\", \"е\", \"д\", \"а\", \"т\", \"ь\", \" \", \"ф\", \"а\", \"б\", \"р\", \"и\", \"к\", \"у\", \" \", \"д\", \"л\", \"я\", \" \", \"U\", \"I\", \" \", \"м\", \"о\", \"д\", \"у\", \"л\", \"я\", \" \", \"B\", \"l\", \"o\", \"c\", \"k\", \"S\", \"c\", \"r\", \"e\", \"e\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 6643,
+      "length": 60,
+      "value": "[\"n\", \"o\", \"t\", \"A\", \"f\", \"t\", \"e\", \"r\", \"D\", \"a\", \"t\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 6758,
+      "length": 65,
+      "value": "[\"n\", \"o\", \"t\", \"B\", \"e\", \"f\", \"o\", \"r\", \"e\", \"D\", \"a\", \"t\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 6903,
+      "length": 200,
+      "value": "[\"o\", \"r\", \"g\", \".\", \"c\", \"o\", \"c\", \"o\", \"a\", \"p\", \"o\", \"d\", \"s\", \".\", \"T\", \"C\", \"S\", \"S\", \"S\", \"L\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \"G\", \"R\", \"P\", \"C\", \"R\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 7179,
+      "length": 180,
+      "value": "[\"o\", \"r\", \"g\", \".\", \"c\", \"o\", \"c\", \"o\", \"a\", \"p\", \"o\", \"d\", \"s\", \".\", \"T\", \"C\", \"S\", \"S\", \"S\", \"L\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \"R\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 7460,
+      "length": 381,
+      "value": "[\"О\", \"т\", \"с\", \"у\", \"т\", \"с\", \"т\", \"в\", \"у\", \"ю\", \"т\", \" \", \"з\", \"а\", \"к\", \"е\", \"ш\", \"и\", \"р\", \"о\", \"в\", \"а\", \"н\", \"н\", \"ы\", \"е\", \" \", \"х\", \"о\", \"с\", \"т\", \"ы\", \" \", \"и\", \" \", \"п\", \"и\", \"н\", \"ы\", \" \", \"п\", \"р\", \"и\", \" \", \"и\", \"н\", \"и\", \"ц\", \"и\", \"а\", \"л\", \"и\", \"з\", \"а\", \"ц\", \"и\", \"и\", \" \", \"T\", \"r\", \"u\", \"s\", \"t\", \"K\", \"i\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 7895,
+      "length": 65,
+      "value": "[\"p\", \"i\", \"n\", \"C\", \"h\", \"e\", \"c\", \"k\", \".\", \"f\", \"a\", \"i\", \"l\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 8017,
+      "length": 80,
+      "value": "[\"p\", \"i\", \"n\", \"C\", \"h\", \"e\", \"c\", \"k\", \".\", \"s\", \"u\", \"c\", \"c\", \"e\", \"s\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 8152,
+      "length": 70,
+      "value": "[\"p\", \"i\", \"n\", \"U\", \"p\", \"d\", \"a\", \"t\", \"e\", \".\", \"f\", \"a\", \"i\", \"l\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 8280,
+      "length": 85,
+      "value": "[\"p\", \"i\", \"n\", \"U\", \"p\", \"d\", \"a\", \"t\", \"e\", \".\", \"s\", \"u\", \"c\", \"c\", \"e\", \"s\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 8441,
+      "length": 100,
+      "value": "[\"C\", \"a\", \"n\", \"n\", \"o\", \"t\", \" \", \"c\", \"o\", \"n\", \"s\", \"t\", \"r\", \"u\", \"c\", \"t\", \" \", \"U\", \"R\", \"L\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 8605,
+      "length": 80,
+      "value": "[\"P\", \"i\", \"n\", \"s\", \"U\", \"p\", \"d\", \"a\", \"t\", \"e\", \"r\", \"E\", \"r\", \"r\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 8758,
+      "length": 120,
+      "value": "[\"E\", \"m\", \"p\", \"t\", \"y\", \" \", \"p\", \"i\", \"n\", \"s\", \" \", \"c\", \"o\", \"n\", \"f\", \"i\", \"g\", \"u\", \"r\", \"a\", \"t\", \"i\", \"o\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 8953,
+      "length": 95,
+      "value": "[\"E\", \"m\", \"p\", \"t\", \"y\", \" \", \"p\", \"i\", \"n\", \"s\", \" \", \"r\", \"e\", \"s\", \"p\", \"o\", \"n\", \"s\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 9118,
+      "length": 65,
+      "value": "[\"U\", \"n\", \"k\", \"n\", \"o\", \"w\", \"n\", \" \", \"e\", \"r\", \"r\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 9265,
+      "length": 220,
+      "value": "[\"r\", \"u\", \".\", \"c\", \"o\", \"r\", \"e\", \".\", \"i\", \"o\", \"s\", \".\", \"h\", \"p\", \"k\", \"p\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \".\", \"I\", \"n\", \"t\", \"e\", \"r\", \"a\", \"c\", \"t\", \"i\", \"v\", \"e\", \"S\", \"y\", \"n\", \"c\", \"Q\", \"u\", \"e\", \"u\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 9561,
+      "length": 190,
+      "value": "[\"r\", \"u\", \".\", \"c\", \"o\", \"r\", \"e\", \".\", \"i\", \"o\", \"s\", \".\", \"h\", \"p\", \"k\", \"p\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \".\", \"N\", \"W\", \"M\", \"o\", \"n\", \"i\", \"t\", \"o\", \"r\", \"Q\", \"u\", \"e\", \"u\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 9828,
+      "length": 195,
+      "value": "[\"r\", \"u\", \".\", \"c\", \"o\", \"r\", \"e\", \".\", \"i\", \"o\", \"s\", \".\", \"P\", \"i\", \"n\", \"s\", \"U\", \"p\", \"d\", \"a\", \"t\", \"e\", \"r\", \".\", \"u\", \"r\", \"l\", \"S\", \"e\", \"s\", \"s\", \"i\", \"o\", \"n\", \"Q\", \"u\", \"e\", \"u\", \"e\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 10085,
+      "length": 150,
+      "value": "[\"r\", \"u\", \".\", \"c\", \"o\", \"r\", \"e\", \".\", \"i\", \"o\", \"s\", \".\", \"u\", \"t\", \"i\", \"l\", \"s\", \".\", \"a\", \"t\", \"o\", \"m\", \"i\", \"c\", \".\", \"%\", \"@\", \".\", \"%\", \"@\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 10309,
+      "length": 180,
+      "value": "[\"r\", \"u\", \".\", \"t\", \"c\", \"s\", \".\", \"c\", \"o\", \"r\", \"e\", \".\", \"h\", \"p\", \"k\", \"p\", \"s\", \"e\", \"r\", \"v\", \"i\", \"c\", \"e\", \".\", \"h\", \"o\", \"s\", \"t\", \"s\", \"A\", \"n\", \"d\", \"P\", \"i\", \"n\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 10555,
+      "length": 235,
+      "value": "[\"S\", \"E\", \"T\", \" \", \"O\", \"F\", \" \", \"f\", \"i\", \"e\", \"l\", \"d\", \"s\", \" \", \"a\", \"r\", \"e\", \" \", \"n\", \"o\", \"t\", \" \", \"l\", \"e\", \"x\", \"i\", \"c\", \"o\", \"g\", \"r\", \"a\", \"p\", \"h\", \"i\", \"c\", \"a\", \"l\", \"l\", \"y\", \" \", \"o\", \"r\", \"d\", \"e\", \"r\", \"e\", \"d\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 10842,
+      "length": 50,
+      "value": "[\"s\", \"s\", \"l\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 10948,
+      "length": 80,
+      "value": "[\"s\", \"s\", \"l\", \"_\", \"p\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \"_\", \"r\", \"o\", \"o\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 11092,
+      "length": 125,
+      "value": "[\"s\", \"s\", \"l\", \"_\", \"p\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \"_\", \"r\", \"o\", \"o\", \"t\", \"_\", \"f\", \"a\", \"l\", \"l\", \"b\", \"a\", \"c\", \"k\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 11266,
+      "length": 35,
+      "value": "[\"s\", \"u\", \"b\", \"j\", \"e\", \"c\", \"t\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 11371,
+      "length": 140,
+      "value": "[\"T\", \"C\", \"S\", \"S\", \"S\", \"L\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \"P\", \"u\", \"b\", \"l\", \"i\", \"c\", \"R\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 11575,
+      "length": 110,
+      "value": "[\"T\", \"C\", \"S\", \"S\", \"S\", \"L\", \"P\", \"i\", \"n\", \"n\", \"i\", \"n\", \"g\", \"R\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 11746,
+      "length": 95,
+      "value": "[\"T\", \"C\", \"S\", \"S\", \"S\", \"L\", \"G\", \"R\", \"P\", \"C\", \"R\", \"e\", \"s\", \"o\", \"u\", \"r\", \"c\", \"e\", \"s\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 11913,
+      "length": 160,
+      "value": "[\"T\", \"r\", \"u\", \"s\", \"t\", \"K\", \"i\", \"t\", \" \", \"c\", \"o\", \"n\", \"f\", \"i\", \"g\", \"u\", \"r\", \"a\", \"t\", \"i\", \"o\", \"n\", \" \", \"e\", \"x\", \"c\", \"e\", \"p\", \"t\", \"i\", \"o\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 12151,
+      "length": 105,
+      "value": "[\"C\", \"o\", \"n\", \"f\", \"i\", \"g\", \"u\", \"r\", \"a\", \"t\", \"i\", \"o\", \"n\", \" \", \"f\", \"a\", \"i\", \"l\", \"e\", \"d\", \":\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 12321,
+      "length": 120,
+      "value": "[\"E\", \"m\", \"p\", \"t\", \"y\", \" \", \"p\", \"i\", \"n\", \"s\", \" \", \"c\", \"o\", \"n\", \"f\", \"i\", \"g\", \"u\", \"r\", \"a\", \"t\", \"i\", \"o\", \"n\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 12516,
+      "length": 95,
+      "value": "[\"U\", \"p\", \"d\", \"a\", \"t\", \"e\", \" \", \"p\", \"i\", \"n\", \"s\", \" \", \"f\", \"a\", \"i\", \"l\", \"e\", \"d\", \":\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 12684,
+      "length": 193,
+      "value": "[\"T\", \"r\", \"u\", \"s\", \"t\", \"K\", \"i\", \"t\", \" \", \"н\", \"е\", \" \", \"б\", \"ы\", \"л\", \" \", \"п\", \"р\", \"о\", \"и\", \"н\", \"и\", \"ц\", \"и\", \"а\", \"л\", \"и\", \"з\", \"и\", \"р\", \"о\", \"в\", \"а\", \"н\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 12965,
+      "length": 301,
+      "value": "[\"В\", \"а\", \"л\", \"и\", \"д\", \"а\", \"т\", \"о\", \"р\", \" \", \"ц\", \"е\", \"п\", \"о\", \"ч\", \"к\", \"и\", \" \", \"с\", \"е\", \"р\", \"т\", \"и\", \"ф\", \"и\", \"к\", \"а\", \"т\", \" \", \"н\", \"е\", \" \", \"б\", \"ы\", \"л\", \" \", \"с\", \"к\", \"о\", \"н\", \"ф\", \"и\", \"г\", \"у\", \"р\", \"и\", \"р\", \"о\", \"в\", \"а\", \"н\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Generated\/GeneratedYamls.swift",
+      "kind": "Array",
+      "offset": 13329,
+      "length": 105,
+      "value": "[\"w\", \"r\", \"o\", \"n\", \"g\", \"C\", \"e\", \"r\", \"t\", \"i\", \"f\", \"i\", \"c\", \"a\", \"t\", \"e\", \"E\", \"r\", \"r\", \"o\", \"r\"]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "Dictionary",
+      "offset": 11976,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 13854,
+      "length": 15,
+      "value": "\"platform_root\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 13913,
+      "length": 12,
+      "value": "\"other_root\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 13969,
+      "length": 12,
+      "value": "\"grpc_roots\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 14188,
+      "length": 16,
+      "value": "\"hosts_and_pins\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 14256,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 14307,
+      "length": 5,
+      "value": "\"dat\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 14351,
+      "length": 5,
+      "value": "\"cer\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceAssembly.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14907,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13575,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/Assembly\/HPKPServiceConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13637,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/HTTPPublicKeyPinningService.swift",
+      "kind": "Array",
+      "offset": 1480,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/HTTPPublicKeyPinningService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1525,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/HTTPPublicKeyPinningService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4777,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/HTTPPublicKeyPinningService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5238,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/HTTPPublicKeyPinningService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5305,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/HTTPPublicKeyPinningService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21611,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/PemCertificatesProvider\/PemCertificatesProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/PinsUpdater\/PinsUpdater.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1024,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/StateModels\/SSLHostsAndPinsListState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 747,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/StateModels\/SSLHostsAndPinsListState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 768,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/StateModels\/SSLHostsAndPinsListState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 787,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/CertificateChainValidator\/TrustKitConfigurationFactory\/TrustKitConfigurationFactory.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2328,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/TrustProber\/URLSessionTrustProber.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2486,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/TrustProber\/URLSessionTrustProber.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/admin\/gitlab-runner\/builds\/miaf\/core.security.ios\/Development\/TCSSSLPinning\/Sources\/HTTPPublicKeyPinningService\/TrustProber\/URLSessionTrustProberTaskDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 802,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
